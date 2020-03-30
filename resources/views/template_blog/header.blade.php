@@ -51,7 +51,7 @@
                     <li><a href="{{url('/list-post')}}">List Post</a></li>
                     <li><a href="{{url('/profil')}}">Profile</a></li>
                     <li><a href="{{url('/kontak')}}">Contact</a></li>
-                    <li><a href="#">Daftar Harga</a></li>
+                    <!-- <li><a href="#">Daftar Harga</a></li> -->
                 </ul>
                 <!-- /nav -->
             </div>

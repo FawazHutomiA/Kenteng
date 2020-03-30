@@ -35,7 +35,7 @@
                     <form action="{{ route('category.destroy', $hasil->id) }}" method="POST">
                         @csrf
                         @method('delete')
-                        <a href="{{ route('post.edit', $hasil->id) }}" class="btn btn-primary btn-sm">edit</a>
+                        <a href="{{ route('category.edit', $hasil->id) }}" class="btn btn-primary btn-sm">edit</a>
                         <button type="submit" class="btn btn-danger btn-sm">hapus</button>
                     </form>
                 </td>
